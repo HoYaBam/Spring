@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+      PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.class">
+
+<resultMap id="classResult" type="classVO">
+        <result property="class_id" column="class_id" />
+        <result property="sub_name" column="sub_name" />
+        <result property="name" column="name" />
+        
+</resultMap>
+
+<insert id="insertClass" parameterType="classVO" >
+     <![CDATA[
+        insert into calss_room(class_id,sub_no, curr, plan)
+		 values(#{class_id}, #{sub_no}, #{curr}, #{plan})
+     ]]>
+</insert>
+
+<select id="selectAllClassList" resultMap="classResult">
+      <![CDATA[
+         select class_id, sub_name, name from calss_room c, member m, r_sub2 rs, subject2 s
+		 where c.sub_no = rs.sub_no and rs.sub_id = s.sub_id and rs.id = m.id	
+      ]]>
+	</select>
+  
+</mapper>
