@@ -1,0 +1,157 @@
+ * {
+     margin: 0 auto;
+     padding: 0;
+ }
+
+ #wrap {
+     width: 1500px;
+     height: 800px;
+     position: relative;
+ }
+
+ #logo {
+     width: 20%;
+     height: 100%;
+     /*            border: 1px solid black;*/
+     left: 50px;
+     position: absolute;
+     top: 10px;
+ }
+#logo img{
+    width: 150px;
+}
+
+ #login {
+     width: 79.8%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 300px;
+ }
+
+ #login li {
+     list-style: none;
+     float: right;
+     width: 15%;
+     height: 60px;
+     line-height: 150px;
+     font
+ }
+
+ #login li a {
+     color: black;
+     text-decoration: none;
+     font-size: 24px;
+     width: 200px;
+ }
+
+ #search {
+     position: relative;
+     top: 250px;
+     left: 50px;
+
+ }
+
+ input[type=text] {
+     font-size: 16px;
+     width: 260px;
+     padding: 2px;
+     height: 29px;
+     text-align: center;
+ }
+
+ button {
+     width: 70px;
+     height: 36px;
+     background: black;
+    color: #ffffff;
+     position: relative;
+     top: 2px;
+
+ }
+
+ .table2 tr td {
+     position: relative;
+     padding: 15px;
+     width: 700px inherit;
+     height: auto;
+/*     background: #EFEFFB;*/
+     border-radius: 15px;
+     text-align: center;
+ }
+
+ .table2 tr td a {
+     text-decoration-line: none;
+     color: black;
+ }
+
+ #list {
+     box-sizing: border-box;
+/*     background: blue;*/
+     width: 870px;
+     height: 110px;
+     padding: 10px;
+/*     background: #E0F2F7;*/
+     border-radius: 15px;
+     position: relative;
+     left: 90px;
+     bottom: 20px;
+         
+ }
+
+ #list a {
+     text-decoration-line: none;
+     color: black;
+ }
+
+ div p {
+     margin: 0;
+     letter-spacing: -2px;
+     font-size: 14px;
+ }
+
+ h1 {
+     position: relative;
+     padding: 15px;
+     width: 69%;
+ }
+
+ #week {
+     position: relative;
+     width: 69%;
+     left:  500px;
+     top: 250px
+ }
+
+ #picture {
+     position: relative;
+     top: 240px;
+     left: 10px
+ }
+
+ #activity {
+     position: absolute;
+     left: 500px;
+     top: 250px;
+ }
+#activity h2{
+    position: relative;
+    left: 260px;
+    bottom: 25px
+}
+#list2 h2{
+    position: relative;
+    left:770px;
+    top: 180px;
+    margin: 
+}
+.table2{
+    position: relative;
+    left: 240px;
+    top: 250px;
+}
+#emotion{
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+}

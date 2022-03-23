@@ -1,0 +1,18 @@
+#top31{
+    position: relative;
+    left: 500px;
+    margin-bottom: 20px
+}
+#top31 input{
+    width: 130px;
+}
+.table{
+    text-align: center;
+}
+
+.form-select{
+    position: relative;
+    left: 130px;
+    width: 200px;
+    height:40px;
+}
